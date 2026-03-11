@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priti's Creation | Handcrafted Elegant Jewellery</title>
+    <meta name="description"
+        content="Discover exquisite handmade jewellery by Priti's Creation. Unique, elegant, and timeless pieces crafted with love and precision.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <div class="nav-toggle" id="nav-toggle">
+                <i data-lucide="menu"></i>
+            </div>
+
+            <a href="#" class="nav-logo">
+                <span class="logo-text">Priti's Creation</span>
+                <span class="logo-dot">.</span>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
+                    <li class="nav-item"><a href="#collections" class="nav-link">Collections</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Story</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i data-lucide="x"></i>
+                </div>
+            </div>
+
+            <div class="nav-actions">
+                <button class="action-btn" aria-label="Search">
+                    <i data-lucide="search"></i>
+                </button>
+                <button class="action-btn" aria-label="Cart">
+                    <i data-lucide="shopping-bag"></i>
+                    <span class="cart-badge">2</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-container container grid" style="grid-template-columns: 1fr 1.5fr;">
+                <div class="hero-data">
+                    <span class="hero-subtitle">Handmade with precision</span>
+                    <h1 class="hero-title">Timeless<br>Elegance<br>For You.</h1>
+                    <p class="hero-description">
+                        Discover our exclusive collection of hand-crafted jewellery designed to shine and celebrate your
+                        unique style.
+                    </p>
+                    <a href="#collections" class="button">
+                        Explore Collection
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="hero-images" style="width: 100%; position: relative;">
+                    <div class="hero-img-box blur-box">
+                        <img src="C:\Users\Pritam\Downloads\WhatsApp Image 2026-03-05 at 18.41.36 (1).jpeg"
+                            alt="Earrings" class="hero-img">
+                    </div>
+                    <div class="hero-img-box hero-img-box-2">
+                        <img src="C:\Users\Pritam\Downloads\WhatsApp Image 2026-03-05 at 18.41.29.jpeg" alt="Necklace"
+                            class="hero-img">
+                    </div>
+                    <div class="hero-img-box hero-img-box-3">
+                        <img src="C:\Users\Pritam\Downloads\WhatsApp Image 2026-03-05 at 18.41.38.jpeg" alt="Bracelet"
+                            class="hero-img">
+                    </div>
+
+                    <!-- Decorative Elements -->
+                    <div class="hero-deco hero-deco-1"></div>
+                    <div class="hero-deco hero-deco-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="category section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Shop by Category</h2>
+                    <p class="section-subtitle">Exquisite designs curated for every occasion</p>
+                </div>
+
+                <div class="category-container grid">
+                    <a href="necklaces.html" class="category-card">
+                        <img src="C:\Users\Pritam\Downloads\1001592314.webp" alt="Necklaces" class="category-img">
+                        <div class="category-info">
+                            <h3 class="category-title">Necklaces</h3>
+                            <span class="category-subtitle">View Collection &rarr;</span>
+                        </div>
+                    </a>
+
+                    <a href="earrings.html" class="category-card">
+                        <img src="C:\Users\Pritam\Downloads\img-20240206-wa0036-500x500.webp" alt="Earrings"
+                            class="category-img">
+                        <div class="category-info">
+                            <h3 class="category-title">Earrings</h3>
+                            <span class="category-subtitle">View Collection &rarr;</span>
+                        </div>
+                    </a>
+
+                    <a href="Bangles.html" class="category-card">
+                        <img src="C:\Users\Pritam\Downloads\shopping (4).webp" alt="Bangles" class="category-img">
+                        <div class="category-info">
+                            <h3 class="category-title">Bangles</h3>
+                            <span class="category-subtitle">View Collection &rarr;</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Collections -->
+        <section class="collections section" id="collections">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Latest Arrivals</h2>
+                    <p class="section-subtitle">The purest handmade masterpieces</p>
+                </div>
+
+                <div class="collections-container grid">
+                    <!-- Product 1 -->
+                    <article class="product-card">
+                        <div class="product-img-box"> <img src="C:\Users\Pritam\Downloads\images (3).jfif"
+                                alt="New Earrings" class="product-img">
+                            <div class="product-actions">
+                                <button class="product-action-btn"><i data-lucide="heart"></i></button>
+                                <button class="product-action-btn"><i data-lucide="eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-data">
+                            <span class="product-category">Earrings</span>
+                            <h3 class="product-title">Ocean Cowrie Hoop Earrings</h3>
+                            <span class="product-price">₹99</span>
+                        </div>
+                        <div class="product-controls">
+                            <div class="quantity">
+                                <input type="number" value="1" min="1" class="qty-input">
+                                <div class="qty-btns">
+                                    <button class="qty-btn plus">+</button>
+                                    <button class="qty-btn minus">-</button>
+                                </div>
+                            </div>
+                            <button class="btn-add-cart">ADD TO CART</button>
+                            <button class="btn-buy-now">BUY NOW</button>
+                        </div>
+                    </article>
+
+                    <!-- Product 2 -->
+                    <article class="product-card">
+                        <div class="product-img-box">
+                            <img src="C:\Users\Pritam\Downloads\1803831952883bb0da2a380e8be12a0c.jpg"
+                                alt="Crystal Choker" class="product-img">
+                            <div class="product-actions">
+                                <button class="product-action-btn"><i data-lucide="heart"></i></button>
+                                <button class="product-action-btn"><i data-lucide="eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-data">
+                            <span class="product-category">Necklace</span>
+                            <h3 class="product-title">Red Cowrie Necklace Set</h3>
+                            <span class="product-price">₹299</span>
+                        </div>
+                        <div class="product-controls">
+                            <div class="quantity">
+                                <input type="number" value="1" min="1" class="qty-input">
+                                <div class="qty-btns">
+                                    <button class="qty-btn plus">+</button>
+                                    <button class="qty-btn minus">-</button>
+                                </div>
+                            </div>
+                            <button class="btn-add-cart">ADD TO CART</button>
+                            <button class="btn-buy-now">BUY NOW</button>
+                        </div>
+                    </article>
+
+                    <!-- Product 3 -->
+                    <article class="product-card">
+                        <div class="product-img-box">
+                            <img src="C:\Users\Pritam\Downloads\WhatsApp Image 2026-03-05 at 18.41.38 (1).jpeg"
+                                alt="New Bangles" class="product-img">
+                            <div class="product-actions">
+                                <button class="product-action-btn"><i data-lucide="heart"></i></button>
+                                <button class="product-action-btn"><i data-lucide="eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-data">
+                            <span class="product-category">Bangles</span>
+                            <h3 class="product-title">Green Kundan Bangles</h3>
+                            <span class="product-price">₹199</span>
+                        </div>
+                        <div class="product-controls">
+                            <div class="quantity">
+                                <input type="number" value="1" min="1" class="qty-input">
+                                <div class="qty-btns">
+                                    <button class="qty-btn plus">+</button>
+                                    <button class="qty-btn minus">-</button>
+                                </div>
+                            </div>
+                            <button class="btn-add-cart">ADD TO CART</button>
+                            <button class="btn-buy-now">BUY NOW</button>
+                        </div>
+                    </article>
+
+                    <!-- Product 4 -->
+                    <article class="product-card">
+                        <div class="product-img-box">
+                            <img src="C:\Users\Pritam\Downloads\images (5).jfif" alt="Gold Hoops" class="product-img">
+                            <div class="product-actions">
+                                <button class="product-action-btn"><i data-lucide="heart"></i></button>
+                                <button class="product-action-btn"><i data-lucide="eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-data">
+                            <span class="product-category">Earrings</span>
+                            <h3 class="product-title">Shell & Jhumka Earrings</h3>
+                            <span class="product-price">₹99</span>
+                        </div>
+                        <div class="product-controls">
+                            <div class="quantity">
+                                <input type="number" value="1" min="1" class="qty-input">
+                                <div class="qty-btns">
+                                    <button class="qty-btn plus">+</button>
+                                    <button class="qty-btn minus">-</button>
+                                </div>
+                            </div>
+                            <button class="btn-add-cart">ADD TO CART</button>
+                            <button class="btn-buy-now">BUY NOW</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Story Section -->
+        <section class="about section" id="about">
+            <div class="container grid about-container">
+                <div class="about-data">
+                    <h2 class="section-title about-title">Our Story &<br>Craftsmanship</h2>
+                    <p class="about-description">
+                        At Priti's Creation, every piece tells a story. We blend traditional craftsmanship with
+                        contemporary design to create heirloom-quality jewelry that speaks to your soul.
+                    </p>
+                    <p class="about-description">
+                        Inspired by nature, artistry, and raw materials, our handmade creations are ethically sourced
+                        and passionately crafted to ensure that you shine inside and out.
+                    </p>
+                    <a href="#" class="button button--link">
+                        Read more about us
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="about-images">
+                    <img src="C:\Users\Pritam\Downloads\shopping (3).webp" alt="Making Jewelry" class="about-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter section">
+            <div class="container">
+                <div class="newsletter-container">
+                    <div class="newsletter-content">
+                        <h2 class="newsletter-title">Join Priti's Inner Circle</h2>
+                        <p class="newsletter-description">
+                            Subscribe to receive updates, access to exclusive deals, and more.
+                        </p>
+                        <form action="" class="newsletter-form">
+                            <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+                            <button type="submit" class="button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section" id="contact">
+        <div class="container grid footer-container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">
+                    Priti's Creation<span class="logo-dot">.</span>
+                </a>
+                <p class="footer-description">
+                    Handmade luxury jewellery for the modern aesthete.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link"><i data-lucide="instagram"></i></a>
+                    <a href="#" class="footer-social-link"><i data-lucide="facebook"></i></a>
+                    <a href="#" class="footer-social-link"><i data-lucide="twitter"></i></a>
+                    <a href="#" class="footer-social-link"><i data-lucide="pinterest"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Shop</h3>
+                <ul class="footer-links">
+                    <li><a href="bangles.html" class="footer-link">Bangles</a></li>
+                    <li><a href="necklaces.html" class="footer-link">Necklaces</a></li>
+                    <li><a href="earrings.html" class="footer-link">Earrings</a></li>
+                    <li><a href="#" class="footer-link">Bracelets</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Support</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">FAQ</a></li>
+                    <li><a href="#" class="footer-link">Shipping & Returns</a></li>
+                    <li><a href="#" class="footer-link">Care Guide</a></li>
+                    <li><a href="#" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom container">
+            <p class="footer-copy">&#169; 2026 Priti's Creation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i data-lucide="arrow-up"></i>
+    </a>
+
+    <!-- Cart Sidebar -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3 class="cart-title">Your Cart</h3>
+            <div class="cart-close" id="cart-close">
+                <i data-lucide="x"></i>
+            </div>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Items will be injected here -->
+            <div class="empty-cart-msg" style="text-align: center; margin-top: 3rem; color: var(--text-color);">
+                Your cart is empty
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total</span>
+                <span class="cart-total-price" id="cart-total-price">₹0</span>
+            </div>
+            <button class="button" style="width: 100%; justify-content: center;">
+                Checkout Now
+            </button>
+        </div>
+    </div>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
